@@ -1,0 +1,92 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background-color: var(--Dark-cyan);
+}
+
+p{
+ color: var( --Dark-gray);
+}
+section{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+.img-top{
+    position: absolute;
+    bottom: 25%;
+    left: -15%;
+}
+.img-bottom{
+    position: absolute;
+    top: 65%;
+    left: 48%;
+}
+main{
+    width: 353px;
+    height: 375;
+    margin: 173px auto 0;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    border-radius: 15px;
+}
+.profil-header img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+       /*************************************BODY************************************/
+.profil-body{
+    border-bottom: 1px solid var(--Dark-gray);
+}
+.profil-body img{
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    background-color: #fff;
+    top: 86px;
+    left: 127px;
+}
+.profil-body h2{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.profil-body span{
+    font-weight: 400;
+    color: var(--Dark-gray);
+}
+.profil-body p{
+    margin-bottom: 27px;
+}
+   /*************************************FOOTER************************************/
+.profil-footer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.profil-footer p{
+    font-weight: 400;
+    font-size: .5em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.profil-footer h3{
+    margin-top: 30px;
+}
